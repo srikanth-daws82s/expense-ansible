@@ -17,8 +17,8 @@
     ansible.builtin.user:
       name: expense
 
-  - name: Creates directory
+  - name: Creates app directory
     ansible.builtin.file:
-      path: mkdir /app
+      path: /app
       state: directory
 
